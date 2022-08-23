@@ -453,5 +453,10 @@ footer button{
     width: 289px;
 }
 
+footer button a{
+    text-decoration: none;
+    color: #fff;
+}
+
 /*  RESPONSIVIDADE  */
 
