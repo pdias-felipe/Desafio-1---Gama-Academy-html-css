@@ -1,7 +1,12 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body{
+    overflow-x: hidden;
+    width: 100%;
 }
 
 
@@ -46,13 +51,12 @@ header nav a{
 }
 
 .section1 .texto{
-    display: block;
+    display: grid;
     font-family: 'Ubuntu';
 }
 
-.section1 .texto .texto1{
-    border: 3px solid #ff4081;
-    width: 450px;
+.section1 .texto .texto1{    
+    width: 488px;
     height: 216px;
     font-style: normal;
     font-weight: 700;
@@ -310,6 +314,7 @@ header nav a{
 }
 
 .section4 h2{
+    text-align: initial;
     width: 530px;
     height: 43px;
     font-size: 37px;
@@ -347,6 +352,8 @@ header nav a{
 }
 
 .posts .texto1{
+    display: block;
+    text-align: initial;
     width: 319px;
     height: 114px;
     margin: 0px 109px 111px 128px;
@@ -355,6 +362,8 @@ header nav a{
 }
 
 .posts .texto2{
+    display: block;
+    text-align: initial;
     width: 319px;
     height: 114px;
     margin: 0px 109px 111px 0px;
@@ -363,6 +372,8 @@ header nav a{
 }
 
 .posts .texto3{
+    display: block;
+    text-align: initial;
     width: 319px;
     height: 114px;
     margin: 0px 109px 111px 0px;
@@ -392,8 +403,6 @@ header nav a{
     display: block;
     text-align: center;
 }
-
-
 
 /*  FOOTER  */
 
@@ -444,5 +453,5 @@ footer button{
     width: 289px;
 }
 
-
+/*  RESPONSIVIDADE  */
 
