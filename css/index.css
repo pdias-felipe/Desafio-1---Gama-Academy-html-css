@@ -96,6 +96,11 @@ header nav a{
     margin-right: 206px;
 }
 
+.imagem1 img{
+    width: 501px;
+    height: 511px;
+}
+
 /*  SECTION 2  */
 
 .section2{
@@ -233,7 +238,7 @@ header nav a{
 
 .section3{
     background:#f7f7f7;;
-    height: 701px;
+    height: 781px;
     font-family: 'Nunito', sans-serif;
 }
 
@@ -279,25 +284,25 @@ header nav a{
 .jaden{
     display: flex;
     margin-top: 78px;
+   margin-left: 108px;    
 }
 
 
 .whoopi{
     display: flex;
-    margin-top: 86px;
-    
+    margin-top: 86px;    
 }
 
 .janes{
     display: flex;
     margin-top: 86px;
+    margin-left: 108px;   
 }
 
 .comentarios .p1{
     font-size: 18px;
     line-height: 25px;
-    margin-bottom: 5px;
-    
+    margin-bottom: 5px;    
 }
 
 .comentarios .p2{
@@ -310,7 +315,7 @@ header nav a{
 .section4{
     height: 730px;
     background-color: #e5e5e5;
-    margin-top: 0;
+    margin-top: 0px;
 }
 
 .section4 h2{
@@ -460,3 +465,53 @@ footer button a{
 
 /*  RESPONSIVIDADE  */
 
+@media (max-width: 820px){
+    header img{
+        width: 60%;
+    }
+
+    header nav{
+        font-size: 15px;
+    }
+
+    .section1{
+        height: 450px;
+    }
+
+    .section1 .texto{
+        width: 430px;
+    }
+
+    .section1 .texto .texto1{    
+        width: 400px;
+        height: 150px;        
+        font-size: 30px;
+        line-height: 49px;        
+        margin-left: 50px;
+        margin-top: 55px;
+    }
+    
+    .section1 .texto .texto2{    
+        font-size: 17px;
+        line-height: 21px;      
+        margin-top: -10px;
+        margin-left: 50px;
+        margin-bottom: 5px;
+        height: 70px;        
+    }
+    
+    .botao1 button{ 
+        width: 168px;                   
+        height: 41px;
+        font-size: 17px;  
+            
+        margin-left: 50px;
+        margin-bottom: 250px;
+    }
+    
+    .imagem1 img{
+        width: 301px;
+        height: 311px;
+        margin-top: -65px;      
+    }    
+}
