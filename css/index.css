@@ -261,7 +261,7 @@ header nav a{
 /*  SECTION 3  */ 
 
 .section3{
-    background:#f7f7f7;;
+    background:#f7f7f7;
     height: 781px;
     font-family: 'Nunito', sans-serif;
 }
@@ -310,7 +310,6 @@ header nav a{
     margin-top: 78px;
    margin-left: 108px;    
 }
-
 
 .whoopi{
     display: flex;
@@ -681,4 +680,65 @@ footer button a{
         margin-left: -35px;
     }
     
+    /*  SECTION 3  */
+    
+    .section3{        
+        height: 501px;        
+    }
+
+    .section3 h2{
+        padding-top: 29px;
+        width: 478px;
+        font-size: 30px;     
+        margin-left: 28px;
+    }
+
+    .section3 .comentarios .comentarios-esquerda{
+        margin-left: 48px;
+    }
+
+    .comentarios .p1{
+        width: 230px;
+        height: 110px;
+        font-size: 15px;
+        line-height: 20px;
+        margin-bottom: 5px;    
+    }
+    
+    .comentarios .p2{
+        width: 300px;
+        height: 110px;
+        font-size: 13px;
+        line-height: 25px;
+    }
+
+    .wally{
+        margin-top: 48px;
+        margin-left: -20px;
+    }
+
+    .whoopi{
+        margin-top: -50px;
+        margin-left: -20px;
+    }
+
+    .jaden{
+        margin-top: 48px;
+        margin-left: 0px;
+    }
+
+    .janes{
+        margin-top: -50px;
+        margin-left: 0px;
+    }
+
+    .section3 .comentarios .comentarios-esquerda img{
+        margin-right: 8px;
+    }
+    
+       
+    .section3 .comentarios .comentarios-direita img{
+        margin-right: 8px;
+    }
+
 }
