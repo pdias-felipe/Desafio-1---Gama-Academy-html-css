@@ -764,7 +764,6 @@ footer button a{
         height: 320px;
     }
 
-    
     .posts h3{  
         width: 200px;      
         font-size: 17px;        
@@ -1111,7 +1110,65 @@ footer button a{
 
     /*  SECTION4  */
 
+    .section4{
+        height: 850px;
+    }
+    
+    .section4 h2{        
+        width: 530px;
+        height: 43px;
+        font-size: 25px;        
+        margin-left: 85px;
+        padding-top: 31px;
+    }
 
+    .posts{
+        display: block;
+        height: 320px;
+    }    
+
+    .posts h3{  
+        width: 200px;      
+        font-size: 22px;  
+        margin-bottom: 20px;      
+    }
+    
+    .posts .texto1{
+        font-size: 12px;
+        line-height: 20px;        
+        margin-left: 258px;
+        margin-top: -163px;
+    }
+
+    .posts .img-vazio2{
+        width: 210px;
+        height: 150px;        
+        margin: 0px 0px 11px 28px;
+    }
+
+    .posts .texto2{
+        font-size: 12px;
+        line-height: 20px;        
+        margin-left: 258px;
+        margin-top: -163px;        
+    }
+
+    .posts .img-vazio3{       
+        margin: 110px 0px 11px 28px;
+    }
+
+    .posts .texto3{
+        font-size: 12px;
+        line-height: 20px;        
+        margin-left: 258px;
+        margin-top: -163px;
+    }
+
+    .section4 button{
+        font-size: 15px;
+        background: none;  
+        margin-top: 330px;    
+    }
 
 
 
