@@ -423,8 +423,7 @@ header nav a{
     border-radius: 62px;
     font-size: 25px;
     color: #FF4081;
-    background: none;
-       
+    background: none;       
 }
 
 .section4{
@@ -489,6 +488,10 @@ footer button a{
 /*  RESPONSIVIDADE  */
 
 @media (max-width: 820px){
+    header{
+        height: 97px;
+    }
+
     header img{
         width: 60%;
     }
@@ -734,11 +737,112 @@ footer button a{
 
     .section3 .comentarios .comentarios-esquerda img{
         margin-right: 8px;
-    }
-    
+    }    
        
     .section3 .comentarios .comentarios-direita img{
         margin-right: 8px;
     }
+
+    /*  SECTION 4  */
+
+    .section4{
+        height: 480px;
+    }
+    
+    .section4 h2{        
+        width: 530px;
+        height: 43px;
+        font-size: 25px;        
+        margin-left: 28px;
+        padding-top: 31px;
+    }
+
+    .posts{
+        height: 320px;
+    }
+    
+    .posts h3{  
+        width: 200px;      
+        font-size: 17px;        
+    } 
+
+    .posts .img-vazio1{
+        width: 210px;
+        height: 150px;        
+        margin: 33px 0px 11px 28px
+    }
+
+    .posts .texto1{
+        font-size: 12px;
+        width: 319px;
+        height: 114px;
+        margin-left: 28px;
+    }
+
+    .posts .img-vazio2{
+        width: 210px;
+        height: 150px;        
+        margin: 33px 0px 11px -158px
+    }
+
+    .posts .texto2{
+        font-size: 12px;
+        width: 319px;
+        height: 114px;
+        margin: 0px 109px 0px -158px;
+    }
+
+    .posts .img-vazio3{
+        width: 210px;
+        height: 150px;        
+        margin: 33px 0px 11px -158px
+    }
+
+    .posts .texto3{
+        font-size: 12px;
+        width: 319px;
+        height: 114px;
+        margin: 0px 109px 0px -158px;
+    }
+
+    .section4 button{
+        width: 169px;
+        height: 31px;
+        font-size: 15px;
+        background: none;      
+    }
+
+    /*  FOOTER  */
+
+    footer{
+        height: 107px; 
+    }
+    
+    footer img{
+        width: 60%;
+        margin-left: 28px;
+    }
+    
+    footer nav{
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 13px;
+        margin-top: 65px; 
+        margin-left: -128px;       
+    }    
+    
+    footer .botao-footer{
+        margin-right: 28px;
+        height: 75px;   
+        margin-top: 50px;         
+    }
+    
+    footer button{
+        font-size: 15px;        
+        height: 31px;
+        width: 169px;
+    }
+
+
 
 }
