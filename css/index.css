@@ -1045,5 +1045,68 @@ footer button a{
         margin-left: 195px;
         text-align: center;        
     }
+
+    /*  SECTION 3  */ 
+
+.section3{
+    height: 821px;    
+}
+
+.section3 h2{
+    padding-top: 29px;
+    width: 340px;
+    height: 50px;
+    font-size: 25px;
+    margin-left: 85px;
+}
+
+.section3 .comentarios{
+    display: block;
+}
+
+.section3 .comentarios .comentarios-esquerda{
+    margin-left: 50px;
+}
+
+.section3 .comentarios .comentarios-esquerda img{
+    margin-right: 50px;
+}
+
+.section3 .comentarios .comentarios-direita{
+    margin-right: 225px;
+}
+
+.section3 .comentarios .comentarios-direita img{
+    margin-right: 56px;
+}
+
+.wally{
+    margin-top: 28px;
+}
+
+.jaden{    
+margin-top: -50px;
+   margin-left: 28px;    
+}
+
+.whoopi{    
+    margin-top: -50px;    
+}
+
+.janes{    
+    margin-top: -50px;
+    margin-left: 28px;   
+}
+
+.comentarios .p1{
+    font-size: 15px;
+    line-height: 15px;
+    margin-bottom: 5px;    
+}
+
+.comentarios .p2{
+    font-size: 15px;
+    line-height: 15px;
+}
    
 }
