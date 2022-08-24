@@ -1109,4 +1109,40 @@ footer button a{
         line-height: 15px;
     }
 
+    /*  SECTION4  */
+
+
+
+
+
+    /*  FOOTER  */
+
+    footer{
+        height: 97px; 
+    }
+    
+    footer img{
+        width: 40%;
+        margin-left: 28px;
+    }
+    
+    footer nav{
+        font-size: 12px;        
+        line-height: 10px;
+        margin-top: 65px; 
+        margin-left: -175px;       
+    }    
+    
+    footer .botao-footer{
+        margin-right: 28px;
+        height: 75px;   
+        margin-top: 50px;         
+    }
+    
+    footer button{
+        font-size: 10px;        
+        height: 25px;
+        width: 99px;
+    }
+
 }
