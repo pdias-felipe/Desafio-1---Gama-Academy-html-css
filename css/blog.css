@@ -76,12 +76,18 @@ header {
    
     height: 259px;
     background: #C4C4C4;
+    margin-bottom: 19px;
 }
 
 .post-title{
     color: #FF4081;
-    margin-top: 19px;
-    margin-bottom: 19px;
+    margin-top: 19pt;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.post-text{
+    margin-top: 19pt;
 }
 
 footer{
