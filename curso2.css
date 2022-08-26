@@ -79,9 +79,7 @@ table {
 	font-size: 100%;
 	font-weight: 700;
 }
-main{
-	
-}
+
 .conteiner{
     display: flex;
     padding: 5% 10% 5% 10%;
@@ -285,4 +283,5 @@ h1{
 	}
 
 
+}
 }
