@@ -61,8 +61,8 @@ table {
 	box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
 }
 .logo{
-    margin-left: 30%;
-	width: 80%;
+    margin-left: 40%;
+	width: 100%;
 	height: 80%;	
     
 
@@ -76,7 +76,7 @@ table {
     text-decoration: none;
     color: #ffffff;
 	margin-left: 25px;
-	font-size: 100%;
+	font-size: 21px;
 	font-weight: 700;
 }
 
@@ -222,7 +222,7 @@ h1{
         width: 60%;
     }
 }
-@media only screen and (max-width: 545px){
+@media only screen and (max-width: 550px){
 	.nav-1 {
 		width: 65%;
 	}
@@ -230,6 +230,7 @@ h1{
 	.primeiro-p{
 		width: 80%;	
 	}
+}
 
 @media only screen and (max-width: 500px){
 	.header{
@@ -281,10 +282,4 @@ h1{
         height: 22px;
 		font-size: 10px;
 	}
-
-<<<<<<< HEAD
-
-}
-=======
->>>>>>> 55a04f64925af1c67681a65d62fc5e2d9651360d
 }
