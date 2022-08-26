@@ -1,4 +1,3 @@
-
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -80,9 +79,7 @@ table {
 	font-size: 100%;
 	font-weight: 700;
 }
-main{
-	
-}
+
 .conteiner{
     display: flex;
     padding: 5% 10% 5% 10%;
@@ -225,6 +222,14 @@ h1{
         width: 60%;
     }
 }
+@media only screen and (max-width: 545px){
+	.nav-1 {
+		width: 65%;
+	}
+
+	.primeiro-p{
+		width: 80%;	
+	}
 
 @media only screen and (max-width: 500px){
 	.header{
@@ -242,6 +247,7 @@ h1{
 	
 	.nav-1{
 		margin-right: 3%;
+		width: 40%;
 	}
 	
 	.nav-1 a{
@@ -264,9 +270,10 @@ h1{
 
 	}
 	.logo-footer{
-		width: 20%;
+		width: 25%;
 		height: 40px;
 		margin-left: 2%;
+		
 	}
 	
 	.botao-footer{
@@ -274,6 +281,5 @@ h1{
         height: 22px;
 		font-size: 10px;
 	}
-
 
 }
