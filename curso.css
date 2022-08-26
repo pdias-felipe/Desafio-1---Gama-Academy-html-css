@@ -187,12 +187,40 @@ h2{
     color: #ffffff;
     margin-bottom: 13px;
 }
+@media only screen and (max-width: 897px){
+	.primeiro-p{
+		font-size: 15px;
+	}
+	.botao{
+		height: 50px;
+
+	}
+}
 @media only screen and (max-width: 800px){
 	.logo{
 		width: 60%;
 		margin-left: 10%;
 	}
+	.botao{
+		font-size: 12px;
+		height: 30px;
+		width: 40%;
+	}
 }
+@media only screen and (max-width: 550px){
+	.nav-1 {
+		width: 65%;
+	}
+	.botao-footer{
+		width: 80%;
+	}
+}
+@media only screen and (max-width: 531px){
+	.nav-1 {
+		width: 65%;
+	}
+}
+
 
 @media only screen and (max-width: 500px){
 	.header{
@@ -208,6 +236,7 @@ h2{
 	
 	.nav-1{
 		margin-right: 3%;
+		width: 40%;
 	}
 	
 	.nav-1 a{
@@ -239,16 +268,20 @@ h2{
 		font-size: 8px;
 	}
 	.botao{
-		font-size: 10px;
+		font-size: 8px;
 		margin: 30px;
 		width: 40%;
+		height: 20px;
 
 		padding: 0 10px 0 10px;
 	}
 	.footer{
 		height: 100%;
+		object-fit: cover;
+	
 
 	}
+	
 	.logo-footer{
 		width: 20%;
 		height: 40px;
